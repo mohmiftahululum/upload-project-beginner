@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--<a href="#" onclick="nama_lengkap()">Klik untuk melihat nama anda</a>-->
+
+    <h2>Object</h2>
+    <p id="tampil">
+
+    </p>
+    <script>
+        let biodata= {
+            nama_depan: "Ulum";
+            nama_belakang: "Miftahul"
+        }
+        document.getElementById("tampil").innerHTML = biodata.nama_depan+" "+ biodata.nama_belakang
+    </script>
+    
+    <!--<script>
+       // let nama_lengkap = () => {
+            //alert("Miftahul Ulum")
+        //}
+    </script>-->
+</body>
+</html>
